@@ -24,6 +24,7 @@ required_packages:
   - python-setuptools
   - redhat-rpm-config
   - which
+  - libsemanage-python
 
 required_wsgi_packages:
   - httpd
