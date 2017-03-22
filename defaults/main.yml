@@ -21,13 +21,13 @@ default_wsgi_config_path: "/var/www/ara"
 # config_path:
 
 # Host to listen on for embedded server or apache
-ara_host: "localhost"
+ara_host: "pre-ansible01.crpc.fr"
 
 # Port to listen on for embedded server or apache
-ara_port: "9191"
+ara_port: "8080"
 
 # Deploy with apache and mod_wsgi
-mod_wsgi: false
+mod_wsgi: true
 
 # Deploy with persistent embedded_webserver
 embedded_server: true
